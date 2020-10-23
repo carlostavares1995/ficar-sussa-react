@@ -91,6 +91,25 @@ const css = StyleSheet.create({
         justifyContent: 'center',
         alignSelf: 'center',
     },
+
+    player_pai_container: {
+        width: '100%',
+        height: '100%',
+        display: 'flex',
+        justifyContent: 'space-around',
+    },
+
+    player_container: {
+        marginLeft: 'auto',
+        marginRight: 'auto',
+    },
+
+    icon_close: {
+        marginLeft: 'auto',
+        marginBottom: -100,
+        marginRight: 25
+    }
+
 });
 
 export {css};
