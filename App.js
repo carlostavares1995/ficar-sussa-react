@@ -5,6 +5,7 @@ import Tutorial2 from './views/Tutorial2';
 import Tutorial3 from './views/Tutorial3';
 import Objetivos from './views/Objetivos';
 import Player from './views/Player';
+import Estatisticas from './views/Estatisticas';
 
 export default function App() {
     return (
@@ -13,7 +14,8 @@ export default function App() {
             {/* {<Tutorial2 />} */}
             {/* {<Tutorial3 />} */}
             {/* <Objetivos /> */}
-            <Player />
+            {/* <Player /> */}
+            <Estatisticas />
         </View>
     );
 }

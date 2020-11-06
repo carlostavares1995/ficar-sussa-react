@@ -108,6 +108,17 @@ const css = StyleSheet.create({
         marginLeft: 'auto',
         marginBottom: -100,
         marginRight: 25
+    },
+
+    container_estatistica: {
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        padding: 5,
+    },
+
+    divisor: {
+        borderBottomWidth: 1,
+        borderBottomColor: 'black'
     }
 
 });
