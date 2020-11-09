@@ -110,16 +110,58 @@ const css = StyleSheet.create({
         marginRight: 25
     },
 
+    //Estatisticas
+
+    container_estatistica_pai: {
+        marginLeft: "auto",
+        marginRight: "auto",
+        marginTop: 20,
+    },
     container_estatistica: {
         marginLeft: 'auto',
         marginRight: 'auto',
         padding: 5,
+        marginTop: 100
+    },
+    text_minha_estatistica: {
+        textAlign: "center",
+        fontSize: 20,
+        marginTop: 5
     },
 
     divisor: {
         borderBottomWidth: 1,
-        borderBottomColor: 'black'
-    }
+        borderBottomColor: 'black',
+    },
+
+    conteudo_section: {
+        marginTop: 10
+    },
+    acoes: {
+        borderWidth: 1,
+        borderColor: "#696969",
+        padding: 7,
+        borderRadius: 7,
+        marginTop: 10,
+        marginBottom: 10
+    },
+
+    text_acao: {
+        textAlign: "center",
+        fontSize: 22,
+        textTransform: "uppercase"
+    },
+
+    conteudo_checkbox: {
+        display: "flex",
+        flexDirection: "row"
+    },
+
+    text_checkbox: {
+        marginLeft: 8,
+        fontSize: 20,
+        marginBottom: 1
+    },
 
 });
 
